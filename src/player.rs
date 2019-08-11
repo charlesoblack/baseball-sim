@@ -4,8 +4,8 @@ pub trait Stats {
 }
 
 pub struct Player {
-    pub abs: i16,
-    pub hits: i16,
+    pub abs: i32,
+    pub hits: i32,
     pub coordination: i16,
 }
 

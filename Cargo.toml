@@ -5,3 +5,8 @@ authors = ["Charles Black <18634426+charlesoblack@users.noreply.github.com>"]
 
 [dependencies]
 rand = "0.7"
+
+[dependencies.sdl2]
+version = "0.32"
+default-features = false
+features = ["ttf", "image", "gfx", "mixer"]
